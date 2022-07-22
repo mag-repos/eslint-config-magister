@@ -1,0 +1,25 @@
+{
+  "name": "@magister-repos/eslint-config-magister",
+  "version": "1.0.0",
+  "description": "ESLint rules for Magister Solutions Ltd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mag-repos/eslint-config-magister.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Magister Solutions Ltd",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.16.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.16.0"
+  }
+}
