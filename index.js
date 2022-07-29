@@ -267,7 +267,10 @@ module.exports = {
           "ViewChildren",
           "HostListener",
           "HostBinding",
-          "Output"
+          "Output",
+          "ContentChild",
+          "ContentChildren"
+
         ],
       },
     ],
