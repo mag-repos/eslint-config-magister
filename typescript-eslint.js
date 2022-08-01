@@ -132,7 +132,12 @@ module.exports = {
         selector: "typeProperty",
         format: ["camelCase"],
         leadingUnderscore: "allow"
-    },
+      },
+      {
+      selector: "objectLiteralProperty",
+      format: ["camelCase"],
+      leadingUnderscore: "allow"
+      },
       {
         selector: "enumMember",
         format: ["PascalCase"],
