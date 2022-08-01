@@ -67,72 +67,77 @@ module.exports = {
     ],
     "@typescript-eslint/member-ordering": [
       "error",
-    {
+      {
         default: {
-            memberTypes: [
-                "public-static-field",
-                "private-static-field",
-                "public-decorated-field",
-                "protected-decorated-field",
-                "private-decorated-field",
-                "protected-static-field",
-                "public-instance-field",
-                "public-abstract-field",
-                "protected-instance-field",
-                "protected-abstract-field",
-                "private-instance-field",
-                "private-abstract-field",
-                "static-field",
-                "public-field",
-                "instance-field",
-                "protected-field",
-                "private-field",
-                "abstract-field",
-                "public-constructor",
-                "protected-constructor",
-                "private-constructor",
-                "constructor"
-            ],
+          memberTypes: [
+            "public-static-field",
+            "private-static-field",
+            "public-decorated-field",
+            "protected-decorated-field",
+            "private-decorated-field",
+            "protected-static-field",
+            "public-instance-field",
+            "public-abstract-field",
+            "protected-instance-field",
+            "protected-abstract-field",
+            "private-instance-field",
+            "private-abstract-field",
+            "static-field",
+            "public-field",
+            "instance-field",
+            "protected-field",
+            "private-field",
+            "abstract-field",
+            "public-constructor",
+            "protected-constructor",
+            "private-constructor",
+            "constructor",
+          ],
         },
-    },
-  ],
+      },
+    ],
     "@typescript-eslint/method-signature-style": "warn",
     "@typescript-eslint/naming-convention": [
       "warn",
       {
-          "selector": "default",
-          "format": ["camelCase"]
+        selector: "default",
+        format: ["camelCase"],
       },
 
       {
-          "selector":  ["variable", "function"],
-          "format": ["camelCase"]
+        selector: ["variable", "function"],
+        format: ["camelCase"],
       },
       {
-          "selector": "parameter",
-          "format": ["camelCase"],
-          "leadingUnderscore": "allow"
-      },
-
-      {
-          //private readonly facade: FacadeService
-          "selector": "memberLike",
-          "modifiers": ["private"],
-          "format": ["camelCase"],
-          "leadingUnderscore": "allow"
+        selector: "parameter",
+        format: ["camelCase"],
+        leadingUnderscore: "allow",
       },
 
       {
-          //matches the same as class, interface,
-          // typeAlias, enum, typeParameter
-          "selector": "typeLike",
-          "format": ["PascalCase"]
+        //private readonly facade: FacadeService
+        selector: "memberLike",
+        modifiers: ["private"],
+        format: ["camelCase"],
+        leadingUnderscore: "allow",
+      },
+
+      {
+        //matches the same as class, interface,
+        // typeAlias, enum, typeParameter
+        selector: "typeLike",
+        format: ["PascalCase"],
       },
       {
-          "selector": "enumMember",
-          "format": ["PascalCase"]
-      }
-  ],
+        selector: "typeProperty",
+        format: ["camelCase"],
+        leadingUnderscore: "allow"
+    },
+      {
+        selector: "enumMember",
+        format: ["PascalCase"],
+      },
+    ],
     "@typescript-eslint/no-base-to-string": "warn",
     "@typescript-eslint/no-confusing-non-null-assertion": "warn",
     "@typescript-eslint/no-confusing-void-expression": "warn",
@@ -143,9 +148,9 @@ module.exports = {
     "@typescript-eslint/no-extraneous-class": [
       "warn",
       {
-          "allowWithDecorator": true
-      }
-  ],
+        allowWithDecorator: true,
+      },
+    ],
     "@typescript-eslint/no-floating-promises": "warn",
     "@typescript-eslint/no-for-in-array": "warn",
     "@typescript-eslint/no-implicit-any-catch": "warn",
@@ -175,7 +180,7 @@ module.exports = {
         allowLiterals: "in-unions-and-intersections",
         allowMappedTypes: "always",
         allowTupleTypes: "always",
-        allowGenerics: "always"
+        allowGenerics: "always",
       },
     ],
     "@typescript-eslint/no-unnecessary-boolean-literal-compare": "warn",
@@ -285,8 +290,7 @@ module.exports = {
     "require-await": "off",
     "@typescript-eslint/require-await": "warn",
     "init-declarations": "off",
-    "@typescript-eslint/init-declarations": 
-      "off",
+    "@typescript-eslint/init-declarations": "off",
     "no-shadow": "off",
     "@typescript-eslint/no-shadow": [
       "warn",
