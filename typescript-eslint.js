@@ -115,16 +115,12 @@ module.exports = {
       },
 
       {
-        //private readonly facade: FacadeService
         selector: "memberLike",
         modifiers: ["private"],
         format: ["camelCase"],
         leadingUnderscore: "allow",
       },
-
       {
-        //matches the same as class, interface,
-        // typeAlias, enum, typeParameter
         selector: "typeLike",
         format: ["PascalCase"],
       },

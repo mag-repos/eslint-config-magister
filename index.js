@@ -43,7 +43,7 @@ module.exports = {
     "no-useless-escape": "warn",
     "no-delete-var": "warn",
     "no-undef": "error",
-    "no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
+    "no-unused-vars": ["warn", { argsIgnorePattern: "^_", destructuredArrayIgnorePattern: "^_" }],
     "no-mixed-spaces-and-tabs": "warn",
     "constructor-super": "warn",
     "no-class-assign": "warn",
