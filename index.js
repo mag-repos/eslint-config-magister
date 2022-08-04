@@ -219,10 +219,10 @@ module.exports = {
       {
         min: 2,
         max: 40,
-        exceptions: ["i"],
+        exceptions: ["i","_","x","y","z"],
       },
     ],
-    "id-match": [1, "^_?[a-zA-Z]+\\$?$"],
+    "id-match": [1, "^_|_?[a-zA-Z]+\\$?$"],
     "implicit-arrow-linebreak": ["off", "beside"],
     indent: [
       "warn",
