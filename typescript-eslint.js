@@ -103,10 +103,15 @@ module.exports = {
         selector: "default",
         format: ["camelCase"],
       },
-
       {
-        selector: ["variable", "function"],
+        selector: [ "function"],
         format: ["camelCase"],
+        leadingUnderscore: "allow",
+      },
+      {
+        selector: ["variable"],
+        format: ["camelCase", "UPPER_CASE"],
+        leadingUnderscore: "allow",
       },
       {
         selector: "parameter",
@@ -243,7 +248,7 @@ module.exports = {
     "no-redeclare": "off",
     "@typescript-eslint/no-redeclare": "warn",
     "no-unused-vars": "off",
-    "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
+    "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_", destructuredArrayIgnorePattern: "^_" }],
     "no-dupe-class-members": "off",
     "@typescript-eslint/no-dupe-class-members": "warn",
     "no-extra-parens": "off",

@@ -219,7 +219,7 @@ module.exports = {
       {
         min: 2,
         max: 40,
-        exceptions: ["i","_","x","y","z"],
+        exceptions: ["i","j","_","x","y","z"],
       },
     ],
     "id-match": [1, "^_|_?[a-zA-Z]+\\$?$"],
