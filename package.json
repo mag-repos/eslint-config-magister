@@ -1,6 +1,6 @@
 {
   "name": "@magister-repos/eslint-config-magister",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "ESLint rules for Magister Solutions Ltd",
   "main": "index.js",
   "scripts": {

@@ -409,7 +409,7 @@ module.exports = {
       "warn",
       "always",
       {
-        avoidExplicitReturnArrows: true,
+        avoidExplicitReturnArrows: false,
       },
     ],
     "prefer-arrow-callback": "off",
