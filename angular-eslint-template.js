@@ -46,7 +46,8 @@ module.exports = {
               "selected",
               "matColumnDef",
               "formGroupName",
-              "minlength"
+              "minlength",
+              "matTooltipPosition"
           ]
       }
   ],
