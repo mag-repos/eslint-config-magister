@@ -47,6 +47,7 @@ module.exports = {
           "matColumnDef",
           "formGroupName",
           "minlength",
+          "matTooltipPosition",
           "crossorigin",
         ],
       },

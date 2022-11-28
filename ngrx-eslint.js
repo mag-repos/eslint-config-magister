@@ -32,6 +32,7 @@ module.exports = {
     "@ngrx/use-consistent-global-store-name": "warn",
     "@ngrx/avoid-cyclic-effects": "warn",
     "@ngrx/no-multiple-actions-in-effects": "warn",
+    "@ngrx/prefer-effect-callback-in-block-statement": "off"
   },
 };
 //# sourceMappingURL=recommended.js.map

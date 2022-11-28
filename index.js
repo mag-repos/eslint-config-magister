@@ -269,8 +269,8 @@ module.exports = {
           "HostBinding",
           "Output",
           "ContentChild",
-          "ContentChildren"
-
+          "ContentChildren",
+          "UntilDestroy"
         ],
       },
     ],
