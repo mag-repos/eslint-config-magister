@@ -33,6 +33,7 @@ module.exports = {
           "cdkDragBoundary",
           "cdkDragRootElement",
           "cdkFocusInitial",
+          "cdkDropListOrientation",
           "d",
           "value",
           "name",
