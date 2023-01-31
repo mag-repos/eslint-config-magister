@@ -51,7 +51,6 @@ module.exports = {
           "matTooltipPosition",
           "crossorigin",
           "rel",
-          "name",
           "content",
         ],
       },
