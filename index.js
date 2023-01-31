@@ -43,7 +43,10 @@ module.exports = {
     "no-useless-escape": "warn",
     "no-delete-var": "warn",
     "no-undef": "error",
-    "no-unused-vars": ["warn", { argsIgnorePattern: "^_", destructuredArrayIgnorePattern: "^_" }],
+    "no-unused-vars": [
+      "warn",
+      { argsIgnorePattern: "^_", destructuredArrayIgnorePattern: "^_" },
+    ],
     "no-mixed-spaces-and-tabs": "warn",
     "constructor-super": "warn",
     "no-class-assign": "warn",
@@ -219,7 +222,7 @@ module.exports = {
       {
         min: 2,
         max: 40,
-        exceptions: ["i","j","_","x","y","z"],
+        exceptions: ["i", "j", "_", "x", "y", "z"],
       },
     ],
     "id-match": [1, "^_|_?[a-zA-Z]+\\$?$"],
@@ -270,7 +273,7 @@ module.exports = {
           "Output",
           "ContentChild",
           "ContentChildren",
-          "UntilDestroy"
+          "UntilDestroy",
         ],
       },
     ],
@@ -304,6 +307,10 @@ module.exports = {
       "warn",
       "WithStatement",
       "BinaryExpression[operator='in']",
+      {
+        selector: "MethodDefinition[static = true] ThisExpression",
+        message: "Avoid using 'this' with static methods.",
+      },
     ],
     "no-tabs": "warn",
     "no-ternary": "off",
@@ -312,7 +319,7 @@ module.exports = {
       "warn",
       {
         allow: ["_id"],
-        allowAfterThis: true 
+        allowAfterThis: true,
       },
     ],
     "no-unneeded-ternary": "warn",
@@ -423,11 +430,11 @@ module.exports = {
     "sort-imports": [
       "error",
       {
-          "ignoreCase": true,
-          "ignoreDeclarationSort": true,
-          "allowSeparatedGroups": true
-      }
-  ],
+        ignoreCase: true,
+        ignoreDeclarationSort: true,
+        allowSeparatedGroups: true,
+      },
+    ],
     "symbol-description": "warn",
     "template-curly-spacing": "warn",
     "yield-star-spacing": "error",

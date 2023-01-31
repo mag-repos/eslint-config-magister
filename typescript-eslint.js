@@ -103,7 +103,7 @@ module.exports = {
         format: ["camelCase"],
       },
       {
-        selector: [ "function"],
+        selector: ["function"],
         format: ["camelCase"],
         leadingUnderscore: "allow",
       },
@@ -131,12 +131,12 @@ module.exports = {
       {
         selector: "typeProperty",
         format: ["camelCase"],
-        leadingUnderscore: "allow"
+        leadingUnderscore: "allow",
       },
       {
-      selector: "objectLiteralProperty",
-      format: ["camelCase"],
-      leadingUnderscore: "allow"
+        selector: "objectLiteralProperty",
+        format: ["camelCase"],
+        leadingUnderscore: "allow",
       },
       {
         selector: "enumMember",
@@ -237,7 +237,12 @@ module.exports = {
     ],
     "@typescript-eslint/type-annotation-spacing": "warn",
     "@typescript-eslint/typedef": "warn",
-    "@typescript-eslint/unbound-method": "warn",
+    "@typescript-eslint/unbound-method": [
+      "error",
+      {
+        ignoreStatic: true,
+      },
+    ],
     "@typescript-eslint/unified-signatures": "warn",
     "@typescript-eslint/sort-type-union-intersection-members": "warn",
 
@@ -247,7 +252,10 @@ module.exports = {
     "no-redeclare": "off",
     "@typescript-eslint/no-redeclare": "warn",
     "no-unused-vars": "off",
-    "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_", destructuredArrayIgnorePattern: "^_" }],
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      { argsIgnorePattern: "^_", destructuredArrayIgnorePattern: "^_" },
+    ],
     "no-dupe-class-members": "off",
     "@typescript-eslint/no-dupe-class-members": "warn",
     "no-extra-parens": "off",
