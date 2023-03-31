@@ -5,6 +5,7 @@ module.exports = {
     "max-lines-per-function": "off",
     "max-statements": ["warn", 50],
     "max-lines": ["warn", 1000],
+    "prefer-arrow/prefer-arrow-functions": "off",
 
     // Mocha rules
     "mocha/prefer-arrow-callback": [
