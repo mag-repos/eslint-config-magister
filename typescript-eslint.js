@@ -220,10 +220,7 @@ module.exports = {
       "warn",
       { ignoreStringArrays: true },
     ],
-    "@typescript-eslint/restrict-plus-operands": [
-      "warn",
-      { checkCompoundAssignments: true },
-    ],
+    "@typescript-eslint/restrict-plus-operands": "warn",
     "@typescript-eslint/restrict-template-expressions": "warn",
     "@typescript-eslint/strict-boolean-expressions": "warn",
     "@typescript-eslint/switch-exhaustiveness-check": "warn",
