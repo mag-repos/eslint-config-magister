@@ -348,7 +348,6 @@ module.exports = {
     "space-infix-ops": "off",
     "@typescript-eslint/space-infix-ops": "warn",
     "no-duplicate-imports": "off",
-    "@typescript-eslint/no-duplicate-imports": "error",
     "no-useless-constructor": "off",
     "@typescript-eslint/no-useless-constructor": "warn",
     "object-curly-spacing": "off",
