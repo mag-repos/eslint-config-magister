@@ -9,21 +9,21 @@ module.exports = {
     ],
     "import/order": [
       "error",
-     {
-         "alphabetize": {
-             "caseInsensitive": true,
-             "order": "asc"
-         },
-         "newlines-between": "always",
-         "groups": [
-             "builtin",
-             "external",
-             "internal",
-             ["index", "sibling", "parent", "object"]
-         ],
-         "pathGroups": []
-     }
- ],
+      {
+        alphabetize: {
+          caseInsensitive: true,
+          order: "asc",
+        },
+        "newlines-between": "always",
+        groups: [
+          "builtin",
+          "external",
+          "internal",
+          ["index", "sibling", "parent", "object"],
+        ],
+        pathGroups: [],
+      },
+    ],
     "import/no-internal-modules": [
       "warn",
       {
@@ -41,5 +41,6 @@ module.exports = {
         ],
       },
     ],
+    "import/no-duplicates": ["warn", { "prefer-inline": true }],
   },
 };

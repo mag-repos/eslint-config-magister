@@ -158,7 +158,6 @@ module.exports = {
     ],
     "@typescript-eslint/no-floating-promises": "warn",
     "@typescript-eslint/no-for-in-array": "warn",
-    "@typescript-eslint/no-implicit-any-catch": "warn",
     "@typescript-eslint/no-inferrable-types": [
       "warn",
       {
@@ -241,7 +240,7 @@ module.exports = {
       },
     ],
     "@typescript-eslint/unified-signatures": "warn",
-    "@typescript-eslint/sort-type-union-intersection-members": "warn",
+    "@typescript-eslint/sort-type-constituents": "warn",
 
     // ESLint rules
     "no-extra-semi": "off",
