@@ -1,9 +1,9 @@
 module.exports = {
   parser: "@angular-eslint/template-parser",
   rules: {
-    "@angular-eslint/template/accessibility-alt-text": "warn",
-    "@angular-eslint/template/accessibility-elements-content": "warn",
-    "@angular-eslint/template/accessibility-label-for": "warn",
+    "@angular-eslint/template/alt-text": "warn",
+    "@angular-eslint/template/elements-content": "warn",
+    "@angular-eslint/template/label-has-associated-control": "warn",
     "@angular-eslint/template/no-positive-tabindex": "warn",
     "@angular-eslint/template/accessibility-table-scope": "warn",
     "@angular-eslint/template/accessibility-valid-aria": "warn",
