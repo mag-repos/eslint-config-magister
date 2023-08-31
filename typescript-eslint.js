@@ -287,7 +287,7 @@ module.exports = {
         ignore: [-1, 0, 1],
         ignoreArrayIndexes: false,
         enforceConst: true,
-        detectObjects: true,
+        detectObjects: false,
       },
     ],
     "no-return-await": "off",
