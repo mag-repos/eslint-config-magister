@@ -4,21 +4,23 @@ module.exports = {
     "max-classes-per-file": [
       "error",
       {
-          "ignoreExpressions": true,
-          "max": 20
-      }],
-      "max-lines-per-function": "off",
-      "max-lines": ["warn", 800],
-      "max-len": ["warn", 800],
-      
+        ignoreExpressions: true,
+        max: 20,
+      },
+    ],
+    "max-lines-per-function": "off",
+    "max-lines": ["warn", 800],
+    "max-len": ["warn", 800],
+
     // TypeScript rules
     "@typescript-eslint/no-extraneous-class": [
       "warn",
       {
         allowEmpty: true,
-        allowConstructorOnly: true
+        allowConstructorOnly: true,
       },
     ],
+    "@typescript-eslint/unbound-method": "off",
 
     // Jasmine rules
     "jasmine/expect-matcher": "warn",
@@ -42,5 +44,5 @@ module.exports = {
     "jasmine/prefer-jasmine-matcher": "warn",
     "jasmine/prefer-toHaveBeenCalledWith": "warn",
     //"jasmine/prefer-toBeUndefined": "warn"
-  }
+  },
 };
