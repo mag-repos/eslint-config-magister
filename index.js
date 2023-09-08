@@ -4,7 +4,7 @@ module.exports = {
     "getter-return": "warn",
     "no-compare-neg-zero": "warn",
     "no-cond-assign": "warn",
-    "no-console": "warn",
+    "no-console": "error",
     "no-constant-condition": "warn",
     "no-control-regex": "warn",
     "no-debugger": "warn",
