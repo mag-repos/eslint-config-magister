@@ -281,7 +281,7 @@ module.exports = {
     "newline-per-chained-call": "warn",
     "no-array-constructor": "warn",
     "no-bitwise": "warn",
-    "no-continue": "warn",
+    "no-continue": "off",
     "no-inline-comments": "warn",
     "no-lonely-if": "warn",
     "no-mixed-operators": "warn",
