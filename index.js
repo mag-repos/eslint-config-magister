@@ -45,7 +45,11 @@ module.exports = {
     "no-undef": "error",
     "no-unused-vars": [
       "warn",
-      { argsIgnorePattern: "^_", destructuredArrayIgnorePattern: "^_" },
+      {
+        argsIgnorePattern: "^_",
+        destructuredArrayIgnorePattern: "^_",
+        ignoreRestSiblings: true,
+      },
     ],
     "no-mixed-spaces-and-tabs": "warn",
     "constructor-super": "warn",
