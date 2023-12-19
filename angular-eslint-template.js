@@ -52,6 +52,7 @@ module.exports = {
           "crossorigin",
           "rel",
           "content",
+          "pattern",
         ],
       },
     ],
