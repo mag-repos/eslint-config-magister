@@ -4,11 +4,16 @@ module.exports = {
   parser: "@typescript-eslint/parser",
   plugins: ["@ngrx"],
   rules: {
+    "@ngrx/avoid-combining-component-store-selectors": "warn",
+    "@ngrx/avoid-mapping-component-store-selectors": "warn",
     "@ngrx/updater-explicit-return-type": "warn",
+    "@ngrx/avoid-cyclic-effects": "warn",
     "@ngrx/no-dispatch-in-effects": "warn",
     "@ngrx/no-effects-in-providers": "error",
+    "@ngrx/no-multiple-actions-in-effects": "warn",
     "@ngrx/prefer-action-creator-in-of-type": "warn",
     "@ngrx/prefer-concat-latest-from": "warn",
+    "@ngrx/prefer-effect-callback-in-block-statement": "off",
     "@ngrx/use-effects-lifecycle-interface": "warn",
     "@ngrx/avoid-combining-selectors": "warn",
     "@ngrx/avoid-dispatching-multiple-actions-sequentially": "warn",
@@ -28,9 +33,6 @@ module.exports = {
     "@ngrx/prefix-selectors-with-select": "warn",
     "@ngrx/select-style": "warn",
     "@ngrx/use-consistent-global-store-name": "warn",
-    "@ngrx/avoid-cyclic-effects": "warn",
-    "@ngrx/no-multiple-actions-in-effects": "warn",
-    "@ngrx/prefer-effect-callback-in-block-statement": "off",
   },
 };
 //# sourceMappingURL=recommended.js.map

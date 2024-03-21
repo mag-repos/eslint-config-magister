@@ -42,7 +42,8 @@ module.exports = {
     "jasmine/no-suite-dupes": "warn",
     "jasmine/no-unsafe-spy": "warn",
     "jasmine/prefer-jasmine-matcher": "warn",
+    "jasmine/prefer-promise-strategies": "warn",
     "jasmine/prefer-toHaveBeenCalledWith": "warn",
-    //"jasmine/prefer-toBeUndefined": "warn"
+    "jasmine/prefer-toBeUndefined": "warn",
   },
 };

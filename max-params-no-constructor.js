@@ -1,6 +1,5 @@
 module.exports = {
-    rules: {
-        "max-params-no-constructor/max-params-no-constructor": [1, 5],
-    },
-  };
-  
+  rules: {
+    "max-params-no-constructor/max-params-no-constructor": ["warn", 5],
+  },
+};
