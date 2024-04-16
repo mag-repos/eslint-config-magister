@@ -57,7 +57,6 @@ module.exports = {
     "no-class-assign": "error",
     "no-const-assign": "error",
     "no-dupe-class-members": "error",
-    "no-new-symbol": "warn",
     "no-new-native-nonconstructor": "error",
     "no-empty-static-block": "error",
     "no-this-before-super": "warn",
