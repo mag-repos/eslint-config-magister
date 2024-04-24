@@ -37,7 +37,7 @@ module.exports = {
     "@typescript-eslint/consistent-type-exports": "error",
     "@typescript-eslint/consistent-type-imports": [
       "error",
-      { prefer: "type-imports" },
+      { prefer: "no-type-imports" },
     ],
     "@typescript-eslint/explicit-function-return-type": "warn",
     "@typescript-eslint/explicit-member-accessibility": [
