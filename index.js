@@ -271,6 +271,7 @@ module.exports = {
           "NgModule",
           "Component",
           "Input",
+          "Pipe",
           "ViewChild",
           "Directive",
           "Injectable",
