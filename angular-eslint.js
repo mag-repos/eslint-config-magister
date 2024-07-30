@@ -12,6 +12,7 @@ module.exports = {
     "@angular-eslint/directive-class-suffix": "warn",
     "@angular-eslint/directive-selector": "warn",
     "@angular-eslint/no-conflicting-lifecycle": "warn",
+    "@angular-eslint/no-duplicates-in-metadata-arrays": "error",
     "@angular-eslint/no-empty-lifecycle-method": "error",
     "@angular-eslint/no-forward-ref": "warn",
     "@angular-eslint/no-host-metadata-property": "warn",
