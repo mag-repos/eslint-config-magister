@@ -61,7 +61,7 @@ module.exports = {
     "@angular-eslint/template/no-interpolation-in-attributes": "error",
     "@angular-eslint/template/no-negated-async": "warn",
     "@angular-eslint/template/no-positive-tabindex": "warn",
-    "@angular-eslint/template/prefer-control-flow": "off",
+    "@angular-eslint/template/prefer-control-flow": "error",
     "@angular-eslint/template/prefer-ngsrc": "warn",
     "@angular-eslint/template/role-has-required-aria": "warn",
     "@angular-eslint/template/table-scope": "error",
