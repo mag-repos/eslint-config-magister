@@ -32,6 +32,7 @@ module.exports = {
     "@angular-eslint/prefer-standalone": "off",
     "@angular-eslint/relative-url-prefix": "warn",
     "@angular-eslint/require-localize-metadata": "warn",
+    "@angular-eslint/runtime-localize": "error",
     "@angular-eslint/sort-ngmodule-metadata-arrays": "error",
     "@angular-eslint/use-component-selector": "warn",
     "@angular-eslint/use-component-view-encapsulation": "error",
