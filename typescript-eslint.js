@@ -272,7 +272,11 @@ module.exports = {
     "no-unused-vars": "off",
     "@typescript-eslint/no-unused-vars": [
       "warn",
-      { argsIgnorePattern: "^_", destructuredArrayIgnorePattern: "^_" },
+      {
+        argsIgnorePattern: "^_",
+        destructuredArrayIgnorePattern: "^_",
+        varsIgnorePattern: "^_",
+      },
     ],
     "no-dupe-class-members": "off",
     "@typescript-eslint/no-dupe-class-members": "warn",
