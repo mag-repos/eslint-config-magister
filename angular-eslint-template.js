@@ -47,6 +47,7 @@ module.exports = {
           "rel",
           "content",
           "pattern",
+          "getDisplayName",
         ],
       },
     ],
