@@ -156,7 +156,7 @@ module.exports = {
     "vars-on-top": "warn",
     "wrap-iife": "warn",
     yoda: "error",
-    strict: "error",
+    strict: ["error", "global"],
     "init-declarations": "off",
     "no-label-var": "warn",
     "no-restricted-globals": ["warn", "event", "fdescribe"],
@@ -449,5 +449,6 @@ module.exports = {
     "symbol-description": "warn",
     "template-curly-spacing": "warn",
     "yield-star-spacing": "error",
+    "no-useless-assignment": "error",
   },
 };
