@@ -10,19 +10,14 @@ module.exports = {
     "@typescript-eslint/await-thenable": "warn",
     "@typescript-eslint/ban-ts-comment": "error",
     "@typescript-eslint/ban-tslint-comment": "error",
-    "@typescript-eslint/ban-types": [
+    "@typescript-eslint/no-restricted-types": [
       "error",
       {
-        types: {
-          Object: {
-            message: "Use {} instead.",
-          },
-          String: null,
-          Array: null,
-          Number: null,
-        },
+        types: {},
       },
     ],
+    "@typescript-eslint/no-unsafe-function-type": "error",
+    "@typescript-eslint/no-wrapper-object-types": "error",
     "@typescript-eslint/class-literal-property-style": "warn",
     "@typescript-eslint/consistent-generic-constructors": "error",
     "@typescript-eslint/consistent-indexed-object-style": "error",
