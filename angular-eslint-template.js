@@ -70,5 +70,10 @@ module.exports = {
     "@angular-eslint/template/valid-aria": "warn",
     "@angular-eslint/template/attributes-order": "error",
     "@angular-eslint/template/prefer-self-closing-tags": "error",
+    "@angular-eslint/template/no-nested-tags": "error",
+    "@angular-eslint/template/prefer-at-empty": "error",
+    "@angular-eslint/template/prefer-template-literal": "error",
+    "@angular-eslint/template/prefer-contextual-for-variables": "error",
+    "@angular-eslint/template/prefer-static-string-properties": "error",
   },
 };
