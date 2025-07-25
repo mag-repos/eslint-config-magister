@@ -28,7 +28,9 @@ module.exports = {
     "@angular-eslint/pipe-prefix": "warn",
     "@angular-eslint/prefer-on-push-component-change-detection": "warn",
     "@angular-eslint/prefer-output-readonly": "error",
-    "@angular-eslint/prefer-standalone": "warn",
+    // TODO: Enable after standalone migration.
+    // Currently has a conflicting autofix that causes issues with non standalone components.
+    "@angular-eslint/prefer-standalone": "off",
     "@angular-eslint/relative-url-prefix": "warn",
     "@angular-eslint/require-localize-metadata": "warn",
     "@angular-eslint/runtime-localize": "error",
@@ -43,6 +45,7 @@ module.exports = {
     "@angular-eslint/prefer-output-emitter-ref": "warn",
     "@angular-eslint/require-lifecycle-on-prototype": "error",
     "@angular-eslint/sort-keys-in-type-decorator": "error",
+    // TODO: Enable after Angular 20 migratino
     // "@angular-eslint/no-developer-preview": "warn",
     // "@angular-eslint/no-experimental": "warn",
   },
