@@ -395,5 +395,9 @@ module.exports = {
     "@typescript-eslint/no-restricted-imports": "error",
     "padding-line-between-statements": "off",
     "@typescript-eslint/padding-line-between-statements": "error",
+    "@typescript-eslint/no-unnecessary-type-conversion": "error",
+    "@typescript-eslint/no-misused-spread": "error",
+    "@typescript-eslint/no-unsafe-type-assertion": "error",
+    "@typescript-eslint/no-deprecated": "warn",
   },
 };
