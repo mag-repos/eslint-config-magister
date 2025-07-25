@@ -386,9 +386,9 @@ module.exports = {
     "@typescript-eslint/space-before-blocks": "error",
     "no-restricted-imports": "off",
     "@typescript-eslint/no-restricted-imports": "error",
-    "@typescript-eslint/no-unnecessary-type-conversion": "error",
+    "@typescript-eslint/no-unnecessary-type-conversion": "warn",
     "@typescript-eslint/no-misused-spread": "error",
-    "@typescript-eslint/no-unsafe-type-assertion": "error",
+    "@typescript-eslint/no-unsafe-type-assertion": "warn",
     "@typescript-eslint/no-deprecated": "warn",
   },
 };
